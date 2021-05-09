@@ -1,0 +1,25 @@
+{
+  "name": "webpack-example-root",
+  "version": "1.0.0",
+  "description": "Starting place of wepback example serie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm dist -rf; webpack --mode production;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcin-wosinek/webpack-example-root.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcin-wosinek/webpack-example-root/issues"
+  },
+  "homepage": "https://github.com/marcin-wosinek/webpack-example-root#readme",
+  "devDependencies": {
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0"
+  }
+}
